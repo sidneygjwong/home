@@ -1,5 +1,10 @@
 remote_theme: pages-themes/minimal@v0.2.0
 title: Sidney Wong
 description: Personal Webpage
+baseurl: "/homepage"
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
+
+header_pages:
+  - index.html
+  - about.html
